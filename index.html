@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            font-family:'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(207, 207, 207);">
+    <div style="background-color:white; margin-left: 34%; width:fit-content; border: 2px solid black; height: 80vh; padding: 10px">
+    <h1 >Registration Form</h1><hr>
+    <form action="post">
+        <label for="name" style="display:inline-block; margin-top: 0.5cm;">Name</label>
+        <input type="text" name="name" placeholder="Enter your name"><br>
+        <label for="password" style="display:inline-block; margin-top: 0.5cm;">password</label>
+        <input type="password" name="password" placeholder="Enter your password"><br>
+        <input type="radio" name="male" style="display:inline-block; margin-top: 0.5cm;">Male
+        <input type="radio" name="male" >Female <br>
+        <label for="dete" style="display:inline-block; margin-top: 0.5cm;">Date</label>
+        <input type="datetime" name="dete" placeholder="dd/mm/yyy"><br>
+        <textarea name="desc" id="descc" cols="50" rows="5" placeholder="Write your description..." style="display:inline-block; margin-top: 0.5cm;"></textarea><br>
+        <label for="sports">Select your favourite sport</label>
+        <select name="Sports" style="display:inline-block; margin-top: 0.5cm;">
+            <option value="Football">Football</option>
+            <option value="Cricket">Cricket</option>
+            <option value="Hockey">Hockey</option>
+        </select><br>
+        <input type="checkbox" style="display:inline-block; margin-top: 0.5cm;">Remember me<br>
+        <input type="submit" style="display:inline-block; margin-top: 2cm; width : 500px; height: 30px">
+
+    </form>
+    </div>
+</body>
+</html>

@@ -27,3 +27,6 @@ Checkboxes: For saving info.
 * Open the index.html file in a web browser.
 * Fill out the form with your information.
 * Click the submit button to complete the registration process.
+
+## Credits
+This project is created by Arvind Singh.
